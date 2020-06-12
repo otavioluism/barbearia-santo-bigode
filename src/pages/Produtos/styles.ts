@@ -27,7 +27,6 @@ export const Header = styled.div`
 
   a {
     img {
-      margin-left: 40%;
       border-radius: 4px;
     }
   }

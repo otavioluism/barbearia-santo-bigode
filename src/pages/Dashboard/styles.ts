@@ -237,7 +237,7 @@ export const Ambiente = styled.div`
     margin-left: 20px;
     font-style: normal;
     font-weight: bold;
-    font-size: 40px;
+    font-size: 4rem;
     line-height: 4.7rem;
   }
 

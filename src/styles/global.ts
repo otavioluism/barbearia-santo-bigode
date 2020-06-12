@@ -27,7 +27,7 @@ export default createGlobalStyle`
  /* media queries  */
   @media (max-width: 770px) {
   html{
-    font-size: 50%;
+    font-size: 40%;
   }
 
   @media (max-width: 500px) {

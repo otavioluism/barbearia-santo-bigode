@@ -24,7 +24,6 @@ export const Header = styled.div`
 
   a {
     img {
-      margin-left: 40%;
       border-radius: 4px;
     }
   }
@@ -148,9 +147,15 @@ export const Barbeiro1 = styled.div`
     }
   }
   @media (max-width: 620px) {
-    flex-direction: column;
-    margin-top: 10px;
-    width: 100%;
+    @media (max-width: 620px) {
+      flex-direction: column;
+      margin-top: 10px;
+      width: 100%;
+      img {
+        display: flex;
+        justify-content: center;
+      }
+    }
   }
 `;
 
@@ -224,6 +229,10 @@ export const Barbeiro2 = styled.div`
     flex-direction: column;
     margin-top: 10px;
     width: 100%;
+    img {
+      display: flex;
+      justify-content: center;
+    }
   }
 `;
 
@@ -297,6 +306,10 @@ export const Barbeiro3 = styled.div`
     flex-direction: column;
     margin-top: 10px;
     width: 100%;
+    img {
+      display: flex;
+      justify-content: center;
+    }
   }
 `;
 
