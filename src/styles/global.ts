@@ -8,16 +8,35 @@ export default createGlobalStyle`
     outline: 0;
   }
 
+  html {
+    font-size: 62.5%;
+  }
+
   body{
     background: #312E38;
     color: #FFF;
     -webkit-font-smoothing: antialiased;
     font-family: 'Roboto', serif;
-    font-size: 16px;
+    font-size: 1.6rem;
   }
 
   h1, h2, h3, h4, h5, h6, strong {
     font-weight: bold;
   }
+
+ /* media queries  */
+  @media (max-width: 770px) {
+  html{
+    font-size: 50%;
+  }
+
+  @media (max-width: 500px) {
+  html{
+    font-size: 25%;
+  }
+
+
+}
+
 
 `;
