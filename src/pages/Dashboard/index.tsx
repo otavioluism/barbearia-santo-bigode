@@ -22,7 +22,6 @@ import {
   Contato,
   Localizacao,
   Ambiente,
-  End,
 } from './styles';
 
 const Dashboard: React.FC = () => {
@@ -136,47 +135,74 @@ const Dashboard: React.FC = () => {
           <img src={imgFacebook} alt="Imagem Facebook" />
         </a>
       </Instagram>
-      <hr className="lineUP" />
       <Contato>
-        <div className="endereco">
-          <h1>
-            ENDEREÇO
-            <FiMapPin />
-          </h1>
-          <p>1885, Rua Coronel Feddersen, Centro</p>
-        </div>
-        <hr />
-        <div className="contato">
-          <h1>
-            ENTRE EM CONTATO
-            <FiPhone />
-          </h1>
-          <p>(47) 99945-4227</p>
-        </div>
-        <hr />
-        <div className="horario">
-          <h1>
-            HORÁRIO
-            <FiClock />
-          </h1>
-          <p>Seg - Sex: 07:30 - 12:00 | 13:15 - 19:30</p>
-          <p>Sáb: 08:00 - 12:00 | 13:15 - 15:00</p>
-        </div>
-      </Contato>
-      <hr />
-      <End>
-        <p>
-          Feito com ❤️ por
-          <a
-            href="https://www.instagram.com/otavioluism/?hl=pt-br"
-            target="_blank"
-            rel="noopener noreferrer"
-            aria-label="Instagram Cosmeticos Embaixador"
-          >
-            Otávio Luis Martins
-          </a>
+        <h1>Contato</h1>
+        <footer>
+          <div className="contato">
+            <strong>
+              <FiPhone />
+              Telefone:
+            </strong>
+            <p>(47) 99945-4227</p>
+            <strong>
+              <FiMapPin />
+              Endereço:
+            </strong>
+            <p>1885, Rua Coronel Feddersen, Centro</p>
+          </div>
+          <div className="horario">
+            <strong>
+              <FiClock />
+              Horário:
+            </strong>
+            <table>
+              <tr>
+                <td>
+                  <strong>Terça:</strong>
+                </td>
+                <td>07:30 - 12:00 | 13:15 - 19:30</td>
+              </tr>
+              <tr>
+                <td>
+                  <strong>Quarta:</strong>
+                </td>
+                <td>07:30 - 12:00 | 13:15 - 19:30</td>
+              </tr>
+              <tr>
+                <td>
+                  <strong>Quinta:</strong>
+                </td>
+                <td>07:30 - 12:00 | 13:15 - 19:30</td>
+              </tr>
+              <tr>
+                <td>
+                  <strong>Sexta:</strong>
+                </td>
+                <td>07:30 - 12:00 | 13:15 - 19:30</td>
+              </tr>
+              <tr>
+                <td>
+                  <strong>Sábado:</strong>
+                </td>
+                <td>08:00 - 12:00 | 13:15 - 15:00</td>
+              </tr>
+            </table>
+          </div>
+        </footer>
+        <p className="address">
+          Feito com ❤ por
+          <strong>
+            <a
+              href="https://www.instagram.com/otavioluism/?hl=pt-br"
+              target="_blank"
+              rel="noopener noreferrer"
+              aria-label="Instagram Cosmeticos Embaixador"
+            >
+              Otávio Luis Martins
+            </a>
+          </strong>
         </p>
-      </End>
+      </Contato>
     </Container>
   );
 };

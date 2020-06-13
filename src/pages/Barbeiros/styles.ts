@@ -85,7 +85,7 @@ export const Barbeiro1 = styled.div`
   width: 90%;
   max-width: 980px;
   margin: auto;
-  margin-bottom: 30px;
+  margin-bottom: 10px;
   background: rgba(196, 196, 196, 0.09);
   border-radius: 15px;
   display: flex;
@@ -102,8 +102,6 @@ export const Barbeiro1 = styled.div`
   img {
     height: 120px;
     width: 120px;
-    border-radius: 50%;
-    margin-right: 50px;
   }
 
   div {
@@ -134,7 +132,6 @@ export const Barbeiro1 = styled.div`
   div.redes {
     display: flex;
     align-items: center;
-    margin-left: 30px;
     a {
       transition: opacity 0.2s;
       img {
@@ -163,7 +160,7 @@ export const Barbeiro2 = styled.div`
   width: 90%;
   max-width: 980px;
   margin: auto;
-  margin-bottom: 30px;
+  margin-bottom: 10px;
   background: rgba(196, 196, 196, 0.09);
   border-radius: 15px;
   display: flex;
@@ -180,8 +177,6 @@ export const Barbeiro2 = styled.div`
   img {
     height: 120px;
     width: 120px;
-    border-radius: 50%;
-    margin-right: 50px;
   }
 
   div {
@@ -212,7 +207,6 @@ export const Barbeiro2 = styled.div`
   div.redes {
     display: flex;
     align-items: center;
-    margin-left: 30px;
     a {
       transition: opacity 0.2s;
       img {
@@ -257,8 +251,6 @@ export const Barbeiro3 = styled.div`
   img {
     height: 120px;
     width: 120px;
-    border-radius: 50%;
-    margin-right: 50px;
   }
 
   div {
@@ -289,7 +281,6 @@ export const Barbeiro3 = styled.div`
   div.redes {
     display: flex;
     align-items: center;
-    margin-left: 30px;
     a {
       transition: opacity 0.2s;
       img {
@@ -314,70 +305,62 @@ export const Barbeiro3 = styled.div`
 `;
 
 export const Contato = styled.div`
-  width: 90%;
-  max-width: 980px;
+  width: 100%;
   margin: auto;
-  margin-bottom: 10px;
   margin-top: 10px;
-  display: flex;
-  justify-content: center;
-  margin-bottom: 10px;
+  background: #f99000;
+  padding: 20px;
 
-  div.endereco,
-  div.contato,
-  div.horario {
-    width: 323px;
-    height: 95px;
-    background: rgba(255, 255, 255, 0.5);
-    margin: 0 15px;
+  h1 {
     text-align: center;
-    border-radius: 6px;
-    font-style: normal;
-
-    &:hover {
-      background: rgba(255, 144, 0, 0.23);
-    }
-
-    h1 {
-      color: #000;
-      margin-top: 15px;
-      font-weight: bold;
-      font-size: 2rem;
-      line-height: 2.3rem;
-    }
-
-    svg {
-      margin-left: 5px;
-    }
-
-    p {
-      margin-top: 18px;
-      font-weight: normal;
-      font-size: 1.5rem;
-      line-height: 1.8rem;
-    }
+    color: #000;
   }
 
-  div.horario {
-    p {
-      margin-top: 5px;
+  footer {
+    width: 90%;
+    max-width: 980px;
+    margin: auto;
+    display: flex;
+    align-items: center;
+    justify-content: space-between;
+
+    div.contato {
+      margin-top: 20px;
+      margin-bottom: 10px;
+
+      strong {
+        color: #000;
+        svg {
+          margin-right: 5px;
+        }
+      }
+
+      p {
+        margin-top: 5px;
+        margin-bottom: 2rem;
+      }
+    }
+
+    div.horario {
+      strong {
+        color: #000;
+        margin-right: 10px;
+        svg {
+          margin-right: 5px;
+        }
+      }
+
+      p {
+        margin-top: 5px;
+      }
     }
   }
-`;
-
-export const End = styled.div`
-  width: 90%;
-  max-width: 980px;
-  margin: auto;
-  margin-bottom: 20px;
-  display: flex;
-  align-items: center;
-  justify-content: center;
-  margin-bottom: 20px;
-
-  p {
+  p.address {
+    display: flex;
+    align-items: center;
+    justify-content: center;
     a {
-      color: #ff9000;
+      color: #000;
       margin-left: 5px;
       text-decoration: none;
       cursor: pointer;
