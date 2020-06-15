@@ -118,7 +118,7 @@ const Dashboard: React.FC = () => {
           </Map>
         </div>
         <a
-          href="https://www.google.com/maps/dir/-27.101852,-50.0085098/barbearia/@-27.1104283,-50.0110279,15z/data=!3m1!4b1!4m9!4m8!1m1!4e1!1m5!1m1!1s0x94de2b01f5e44309:0x5456b3b13a32756!2m2!1d-49.9991837!2d-27.116567"
+          href="https://www.google.com.br/maps/place/Santo+Bigode/@-27.116164,-50.0010151,17z/data=!4m5!3m4!1s0x0:0x5456b3b13a32756!8m2!3d-27.1165672!4d-49.9991836?hl=pt-BR&authuser=0"
           target="_blank"
           rel="noopener noreferrer"
           aria-label="Mapeamento"
