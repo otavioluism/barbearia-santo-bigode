@@ -148,12 +148,21 @@ const Barbeiros: React.FC = () => {
               <FiPhone />
               Telefone:
             </strong>
-            <p>(47) 99945-4227</p>
+            <a href="tel:47999454227">
+              <p>(47) 99945-4227</p>
+            </a>
             <strong>
               <FiMapPin />
               Endereço:
             </strong>
-            <p>1885, Rua Coronel Feddersen, Centro</p>
+            <a
+              href="https://www.google.com.br/maps/place/Santo+Bigode/@-27.116164,-50.0010151,17z/data=!4m5!3m4!1s0x0:0x5456b3b13a32756!8m2!3d-27.1165672!4d-49.9991836?hl=pt-BR&authuser=0"
+              target="_blank"
+              rel="noopener noreferrer"
+              aria-label="Localizacao Santo Bigode"
+            >
+              <p>1885, Rua Coronel Feddersen, Centro</p>
+            </a>
           </div>
           <div className="horario">
             <strong>
@@ -165,31 +174,31 @@ const Barbeiros: React.FC = () => {
                 <td>
                   <strong>Terça:</strong>
                 </td>
-                <td>07:30 - 12:00 | 13:15 - 19:30</td>
+                <td>08:15 - 12:00 | 13:15 - 19:30</td>
               </tr>
               <tr>
                 <td>
                   <strong>Quarta:</strong>
                 </td>
-                <td>07:30 - 12:00 | 13:15 - 19:30</td>
+                <td>08:15 - 12:00 | 13:15 - 19:30</td>
               </tr>
               <tr>
                 <td>
                   <strong>Quinta:</strong>
                 </td>
-                <td>07:30 - 12:00 | 13:15 - 19:30</td>
+                <td>08:15 - 12:00 | 13:15 - 19:30</td>
               </tr>
               <tr>
                 <td>
                   <strong>Sexta:</strong>
                 </td>
-                <td>07:30 - 12:00 | 13:15 - 19:30</td>
+                <td>08:15 - 12:00 | 13:15 - 20:00</td>
               </tr>
               <tr>
                 <td>
                   <strong>Sábado:</strong>
                 </td>
-                <td>08:00 - 12:00 | 13:15 - 15:00</td>
+                <td>08:15 - 12:00 | 13:15 - 16:00</td>
               </tr>
             </table>
           </div>

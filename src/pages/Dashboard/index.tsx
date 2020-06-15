@@ -35,6 +35,7 @@ const Dashboard: React.FC = () => {
       show = !show;
     }
   }
+
   return (
     <Container>
       <Header>
@@ -117,7 +118,7 @@ const Dashboard: React.FC = () => {
           </Map>
         </div>
         <a
-          href="https://wego.here.com/directions/mix//Barbearia-Santo-Bigode,-Rua-Coronel-Feddersen,-1727,-Tai%C3%B3,-Tai%C3%B3-SC,-89190-000:e-eyJuYW1lIjoiQmFyYmVhcmlhIFNhbnRvIEJpZ29kZSIsImFkZHJlc3MiOiJSdWEgQ29yb25lbCBGZWRkZXJzZW4sIFRhaVx1MDBmMyAtIFNDLCA4OTE5MC0wMDAsIEJyYXNpbCwgVGFpXHUwMGYzIiwibGF0aXR1ZGUiOi0yNy4xMTU5MDI5NDA1NiwibG9uZ2l0dWRlIjotNDkuOTk4MjQyODU1MDcyLCJwcm92aWRlck5hbWUiOiJmYWNlYm9vayIsInByb3ZpZGVySWQiOjEwMDgyMjk2MTYxNjU1Mn0=?map=-27.1159,-49.99824,15,normal&fb_locale=pt_BR"
+          href="https://www.google.com/maps/dir/-27.101852,-50.0085098/barbearia/@-27.1104283,-50.0110279,15z/data=!3m1!4b1!4m9!4m8!1m1!4e1!1m5!1m1!1s0x94de2b01f5e44309:0x5456b3b13a32756!2m2!1d-49.9991837!2d-27.116567"
           target="_blank"
           rel="noopener noreferrer"
           aria-label="Mapeamento"
@@ -155,12 +156,21 @@ const Dashboard: React.FC = () => {
               <FiPhone />
               Telefone:
             </strong>
-            <p>(47) 99945-4227</p>
+            <a href="tel:47999454227">
+              <p>(47) 99945-4227</p>
+            </a>
             <strong>
               <FiMapPin />
               Endereço:
             </strong>
-            <p>1885, Rua Coronel Feddersen, Centro</p>
+            <a
+              href="https://www.google.com.br/maps/place/Santo+Bigode/@-27.116164,-50.0010151,17z/data=!4m5!3m4!1s0x0:0x5456b3b13a32756!8m2!3d-27.1165672!4d-49.9991836?hl=pt-BR&authuser=0"
+              target="_blank"
+              rel="noopener noreferrer"
+              aria-label="Localizacao Santo Bigode"
+            >
+              <p>1885, Rua Coronel Feddersen, Centro</p>
+            </a>
           </div>
           <div className="horario">
             <strong>
@@ -172,31 +182,31 @@ const Dashboard: React.FC = () => {
                 <td>
                   <strong>Terça:</strong>
                 </td>
-                <td>07:30 - 12:00 | 13:15 - 19:30</td>
+                <td>08:15 - 12:00 | 13:15 - 19:30</td>
               </tr>
               <tr>
                 <td>
                   <strong>Quarta:</strong>
                 </td>
-                <td>07:30 - 12:00 | 13:15 - 19:30</td>
+                <td>08:15 - 12:00 | 13:15 - 19:30</td>
               </tr>
               <tr>
                 <td>
                   <strong>Quinta:</strong>
                 </td>
-                <td>07:30 - 12:00 | 13:15 - 19:30</td>
+                <td>08:15 - 12:00 | 13:15 - 19:30</td>
               </tr>
               <tr>
                 <td>
                   <strong>Sexta:</strong>
                 </td>
-                <td>07:30 - 12:00 | 13:15 - 19:30</td>
+                <td>08:15 - 12:00 | 13:15 - 20:00</td>
               </tr>
               <tr>
                 <td>
                   <strong>Sábado:</strong>
                 </td>
-                <td>08:00 - 12:00 | 13:15 - 15:00</td>
+                <td>08:15 - 12:00 | 13:15 - 16:00</td>
               </tr>
             </table>
           </div>

@@ -203,12 +203,13 @@ export const Caixa = styled.div`
 
     hr {
       margin-top: 30px;
-      width: 123px;
-      border: 2px solid #ff9000;
-      margin-bottom: 30px;
+      width: 100%;
+      border: 1px solid #ff9000;
+      margin-bottom: 20px;
     }
 
     p {
+      margin-top: 100px;
       font-style: normal;
       font-weight: 300;
       font-size: 2rem;
@@ -267,6 +268,15 @@ export const Ambiente = styled.div`
     display: flex;
     align-items: center;
     justify-content: center;
+    img {
+      width: 300px;
+      height: 200px;
+      cursor: pointer;
+      &:hover {
+        height: 80%;
+        width: 100%;
+      }
+    }
   }
 
   @media (max-width: 750px) {
@@ -395,9 +405,18 @@ export const Contato = styled.div`
         }
       }
 
-      p {
-        margin-top: 5px;
-        margin-bottom: 2rem;
+      a {
+        text-decoration: none;
+        color: #fff;
+        transition: opacity 0.2s;
+
+        p {
+          margin-top: 5px;
+          margin-bottom: 2rem;
+          &:hover {
+            opacity: 50%;
+          }
+        }
       }
     }
 

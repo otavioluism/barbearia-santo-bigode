@@ -233,9 +233,18 @@ export const Contato = styled.div`
         }
       }
 
-      p {
-        margin-top: 5px;
-        margin-bottom: 2rem;
+      a {
+        text-decoration: none;
+        color: #fff;
+        transition: opacity 0.2s;
+
+        p {
+          margin-top: 5px;
+          margin-bottom: 2rem;
+          &:hover {
+            opacity: 50%;
+          }
+        }
       }
     }
 
