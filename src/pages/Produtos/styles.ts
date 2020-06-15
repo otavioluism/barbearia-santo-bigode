@@ -113,8 +113,7 @@ export const Produto1 = styled.div`
   div.produtos {
     max-width: 980px;
     background: rgba(196, 196, 196, 0.09);
-    border-radius: 15px;
-    height: 550px;
+    border-radius: 15px
     padding: 15px;
     text-align: center;
     margin-bottom: 10px;

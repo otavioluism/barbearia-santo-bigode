@@ -25,10 +25,14 @@ import {
 } from './styles';
 
 const Dashboard: React.FC = () => {
+  let show = true;
   async function handleMenu(): Promise<void> {
     const showMenu = document.querySelector('.menu-section');
     if (showMenu) {
+      console.log(showMenu);
       showMenu.classList.toggle('on');
+      document.body.style.overflow = show ? 'hidden' : 'initial';
+      show = !show;
     }
   }
   return (

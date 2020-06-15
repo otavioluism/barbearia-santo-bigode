@@ -144,14 +144,16 @@ export const Barbeiro1 = styled.div`
     }
   }
   @media (max-width: 620px) {
-    @media (max-width: 620px) {
-      flex-direction: column;
-      margin-top: 10px;
-      width: 100%;
-      img {
-        display: flex;
-        justify-content: center;
-      }
+    flex-direction: column;
+    margin-top: 10px;
+    width: 100%;
+    img {
+      display: flex;
+      justify-content: center;
+    }
+
+    div {
+      margin-left: 40px;
     }
   }
 `;

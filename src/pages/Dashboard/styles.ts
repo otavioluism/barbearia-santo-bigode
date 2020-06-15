@@ -85,10 +85,11 @@ export const Header = styled.header`
 
           .menu-section.on {
             position: absolute;
+
             top: 0;
             left: 0;
 
-            width: -70vw;
+            width: 100vw;
             height: 100vh;
 
             background-color: #f99000;
@@ -113,6 +114,7 @@ export const Header = styled.header`
                 a{
                   transition-duration: 0.5s;
                   font-size: 10rem;
+                  font-weight: 300;
                   line-height: 20rem;
                   display: block;
                 }
@@ -311,8 +313,8 @@ export const Localizacao = styled.div`
       text-align: center;
       width: 30%;
       h3 {
-        font-family: Poly;
         border-radius: 10px;
+        font-weight: 500;
         transition: opacity 0.2s;
         background: rgba(196, 196, 196, 0.09);
         &:hover {
