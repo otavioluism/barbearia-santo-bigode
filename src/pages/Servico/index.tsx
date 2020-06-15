@@ -29,7 +29,14 @@ const Servico: React.FC = () => {
         </a>
         <h1>Serviços</h1>
       </Header>
-      <Fundo />
+      <Fundo>
+        <div>
+          <p>
+            A barbearia Santo Bigode sempre proporciona trabalho com amor, para
+            que seus serviços sempre sejam de qualidade aos seus clientes.
+          </p>
+        </div>
+      </Fundo>
       <Logo>
         <img src={logoImg} alt="Santo Bigode" />
       </Logo>

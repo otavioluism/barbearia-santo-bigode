@@ -40,7 +40,16 @@ const Produtos: React.FC = () => {
         </a>
         <h1>Produtos</h1>
       </Header>
-      <Fundo />
+      <Fundo>
+        <div>
+          <p>
+            Conheça os nossos produtos! <br />
+{' '}
+Role para baixo e escolha já o
+            seu.
+</p>
+        </div>
+      </Fundo>
       <Logo>
         <img src={logoImg} alt="Santo Bigode" />
       </Logo>

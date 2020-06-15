@@ -30,11 +30,11 @@ export default createGlobalStyle`
     font-size: 40%;
   }
 
+
   @media (max-width: 500px) {
   html{
-    font-size: 25%;
+    font-size: 32%;
   }
-
 
 }
 

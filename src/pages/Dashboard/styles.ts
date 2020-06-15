@@ -46,8 +46,8 @@ export const Header = styled.header`
           a {
             text-decoration: none;
             color: #000;
-            font-size: 2.0rem;
-            font-weight: bold;
+            font-size: 2.5rem;
+            font-weight: 300;
             transition: opacity 0.2s;
 
             }
@@ -155,6 +155,22 @@ export const Fundo = styled.div`
   background-image: url(${ImgFundo});
   background-position: center center;
   background-repeat: no-repeat;
+
+  div {
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    width: 60%;
+    background: rgba(255, 255, 255, 0.35);
+    border-radius: 4px;
+    p {
+      text-align: center;
+      color: #000;
+      font-size: 4rem;
+      font-weight: 300;
+      line-height: 5rem;
+    }
+  }
 `;
 
 export const Logo = styled.div`
@@ -195,7 +211,7 @@ export const Caixa = styled.div`
 
     p {
       font-style: normal;
-      font-weight: normal;
+      font-weight: 300;
       font-size: 2rem;
       line-height: 3rem;
       letter-spacing: 0.04em;
@@ -295,6 +311,8 @@ export const Localizacao = styled.div`
 
   div.mapa {
     margin-top: 20px;
+    position: relative;
+    z-index: 0;
   }
 
   div.mapa,

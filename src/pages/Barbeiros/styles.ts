@@ -16,7 +16,7 @@ export const Header = styled.div`
   justify-content: space-between;
 
   a {
-    margin-left: 50px;
+    margin-left: 60px;
     font-size: 3.5rem;
     line-height: 4.1rem;
     color: #000;
@@ -30,6 +30,7 @@ export const Header = styled.div`
 
   h1 {
     margin-right: 50px;
+    font-weight: 300;
     color: #000;
   }
 `;

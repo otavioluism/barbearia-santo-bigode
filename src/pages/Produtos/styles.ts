@@ -19,7 +19,7 @@ export const Header = styled.div`
   justify-content: space-between;
 
   a {
-    margin-left: 50px;
+    margin-left: 60px;
     font-size: 3.5rem;
     line-height: 4.1rem;
     color: #000;
@@ -33,6 +33,7 @@ export const Header = styled.div`
 
   h1 {
     margin-right: 50px;
+    font-weight: 300;
     color: #000;
   }
 `;
@@ -50,6 +51,21 @@ export const Fundo = styled.div`
   background-image: url(${imgFundo});
   background-position: center center;
   background-repeat: no-repeat;
+  div {
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    width: 60%;
+    background: rgba(255, 255, 255, 0.5);
+    border-radius: 4px;
+    p {
+      text-align: center;
+      color: #000;
+      font-size: 4rem;
+      font-weight: 300;
+      line-height: 5rem;
+    }
+  }
 `;
 
 export const Logo = styled.div`
@@ -140,7 +156,7 @@ export const Produto1 = styled.div`
 
     p {
       font-style: normal;
-      font-weight: 500;
+      font-weight: 300;
       font-size: 2rem;
       line-height: 2.3rem;
       display: flex;

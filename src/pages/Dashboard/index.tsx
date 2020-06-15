@@ -67,7 +67,15 @@ const Dashboard: React.FC = () => {
           </div>
         </div>
       </Header>
-      <Fundo />
+      <Fundo>
+        <div>
+          <p>
+            Nossa missão é proporcionar aos homens ótimos serviços de barbearia,
+            num ambiente relaxante com opções de diversão onde novos amigos são
+            feitos e antigas amizades são fortalecidas.
+          </p>
+        </div>
+      </Fundo>
       <Logo>
         <img src={logoImg} alt="Santo Bigode" />
       </Logo>
