@@ -63,7 +63,6 @@ export const Fundo = styled.div`
       color: #000;
       font-size: 4rem;
       font-weight: 300;
-      line-height: 5rem;
     }
   }
 `;
