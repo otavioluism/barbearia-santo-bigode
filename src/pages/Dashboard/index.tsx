@@ -71,8 +71,8 @@ const Dashboard: React.FC = () => {
         <div>
           <p>
             Nossa missão é proporcionar aos homens ótimos serviços de barbearia,
-            num ambiente relaxante com opções de diversão onde novos amigos são
-            feitos e antigas amizades são fortalecidas.
+            num ambiente relaxante, com opções de diversão, onde novos amigos
+            são feitos e antigas amizades são fortalecidas.
           </p>
         </div>
       </Fundo>
@@ -85,9 +85,9 @@ const Dashboard: React.FC = () => {
           <h1>AMIGOS E CLIENTES!</h1>
           <hr />
           <p>
-            Bem vindo ao mais novo ambiente desenvolvido para você cliente,
-            agora você poderá acessar de qualquer lugar a nossa plataforma web e
-            conferir nosso trabalho juntamente com nossos preços, produtos e
+            Bem-vindo ao mais novo ambiente desenvolvido para você cliente.
+            Agora você poderá acessar de qualquer lugar a nossa plataforma web e
+            conferir nosso trabalho, juntamente com nossos preços, produtos e
             também o perfil de cada barbeiro.
           </p>
         </div>
