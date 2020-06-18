@@ -209,12 +209,19 @@ export const Caixa = styled.div`
     }
 
     p {
-      margin-top: 100px;
       font-style: normal;
       font-weight: 300;
       font-size: 2rem;
       line-height: 3rem;
       letter-spacing: 0.04em;
+      margin-bottom: 15px;
+    }
+
+    p.hora {
+      font-size: 4rem;
+      margin-top: 0px;
+      font-weight: bold;
+      color: #ff9000;
     }
   }
 

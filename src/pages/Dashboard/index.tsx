@@ -26,10 +26,11 @@ import {
 
 const Dashboard: React.FC = () => {
   let show = true;
+  const data = new Date();
+
   async function handleMenu(): Promise<void> {
     const showMenu = document.querySelector('.menu-section');
     if (showMenu) {
-      console.log(showMenu);
       showMenu.classList.toggle('on');
       document.body.style.overflow = show ? 'hidden' : 'initial';
       show = !show;
@@ -90,6 +91,9 @@ const Dashboard: React.FC = () => {
             Agora você poderá acessar de qualquer lugar a nossa plataforma web e
             conferir nosso trabalho, juntamente com nossos preços, produtos e
             também o perfil de cada barbeiro.
+          </p>
+          <p className="hora">
+            {`${data.getDate()}/${data.getMonth() + 1}/${data.getFullYear()}`}
           </p>
         </div>
         <div className="imagem">

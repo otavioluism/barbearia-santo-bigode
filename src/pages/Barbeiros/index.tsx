@@ -54,8 +54,9 @@ const Barbeiros: React.FC = () => {
             Barbeiro e Proprietário
           </p>
           <p>
-            <strong>Experiência:</strong>3 anos
-          </p>
+            <strong>Experiência:</strong>
+3 anos
+</p>
         </div>
         <div className="redes">
           <a
@@ -85,8 +86,9 @@ const Barbeiros: React.FC = () => {
             Barbeiro e Proprietário
           </p>
           <p>
-            <strong>Experiência: </strong>3 anos
-          </p>
+            <strong>Experiência: </strong>
+3 anos
+</p>
         </div>
         <div className="redes">
           <a
@@ -116,10 +118,8 @@ const Barbeiros: React.FC = () => {
             Barbeiro
           </p>
           <p>
-            <strong>Experiência: </strong>
-{' '}
-1 ano
-</p>
+            <strong>Experiência: </strong> 1 ano
+          </p>
         </div>
         <div className="redes">
           <a
