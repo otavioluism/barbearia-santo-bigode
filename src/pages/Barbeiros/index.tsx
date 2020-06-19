@@ -5,6 +5,7 @@ import { FiArrowLeft, FiMapPin, FiPhone, FiClock } from 'react-icons/fi';
 import {
   Container,
   Header,
+  Fundo,
   Logo,
   Capa,
   Caixa,
@@ -35,6 +36,14 @@ const Barbeiros: React.FC = () => {
         </a>
         <h1>Barbeiros</h1>
       </Header>
+      <Fundo>
+        <div>
+          <p>CONHEÇA</p>
+          <p>A</p>
+          <p>NOSSA</p>
+          <p>EQUIPE!</p>
+        </div>
+      </Fundo>
       <Logo>
         <img src={logoImg} alt="Santo Bigode" />
       </Logo>

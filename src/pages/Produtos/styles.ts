@@ -1,6 +1,6 @@
 import styled from 'styled-components';
 
-import imgFundo from '../../assets/produtos.png';
+import imgFundo from '../../assets/produtos.jpeg';
 
 export const Container = styled.div`
   width: 100%;

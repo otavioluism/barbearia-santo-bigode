@@ -1,5 +1,7 @@
 import styled from 'styled-components';
 
+import ImgFundo from '../../assets/barbeiros.jpeg';
+
 export const Container = styled.div`
   width: 100%;
   margin: auto;
@@ -35,7 +37,35 @@ export const Header = styled.div`
   }
 `;
 
+export const Fundo = styled.div`
+  display: flex;
+  flex-direction: row;
+  align-items: center;
+  -webkit-box-pack: center;
+  justify-content: center;
+  height: 100vh;
+  width: 100%;
+  background-size: cover;
+  position: relative;
+  background-image: url(${ImgFundo});
+  background-position: center center;
+  background-repeat: no-repeat;
+
+  div {
+    width: 30%;
+    background: rgba(255, 255, 255, 0.35);
+    border-radius: 4px;
+    p {
+      text-align: center;
+      color: #000;
+      font-size: 4rem;
+      font-weight: 500;
+    }
+  }
+`;
+
 export const Logo = styled.div`
+  margin-top: 10px;
   display: flex;
   align-items: center;
   justify-content: center;
